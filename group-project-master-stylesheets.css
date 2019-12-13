@@ -1,7 +1,12 @@
+/*Navigation Bar Font*/
 .navbar-brand {
   font-size: 20px;
   font-family: 'Bebas Neue', cursive;
 }
+/*Navigation Bar Logo*/
 .logo{
   margin-right: 10px
 }
+/* Navigation Bar Color*/
+.navbar{
+  background-image: linear-gradient(to right,#ce73f0,#d3a6e3,#d3a6e3, #e1c7eb, #e1c7eb,#e1c7eb, #e1c7eb)
