@@ -1,49 +1,79 @@
-<html>
+
+<!doctype html>
+<html lang="en">
   <head>
-  <title>View All Restaurants</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- Style CSS -->
-  <link rel="stylesheet" type="text/css" href="restaurant.css">
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-</head>
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-<img class="logo" alt="purplepenguin" src="948236-200.png" style="max-width:45px;">
-  <a class="navbar-brand" href="About-Purple-Penguin.html">Purple Penguin</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <title>View All Restaurants</title>
 
+    <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min
+.css" crossorigin="anonymous">
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="View-All-Restaurants.html">View All Restaurants</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="About-Purple-Penguin.html">About Us</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <!-- Custom styles for this template -->
+    <link href="restaurant.css" rel="stylesheet">
 
-<section id="home">
-       <div id="home-cover" class="bg-parallax">
-           <div id="home-content-box">
-               <div id="home-content-box-inner" class="text-center">
-                   <div id="home-heading">
-                       <h1>O<br>  </h1>
-                   </div>
-                   <div id="home-btn">
-                   </div>
-               </div>
-           </div>
-       </div>
-   </section>
-<body>
-  <h1>Browse our top restaurant choices</h1>
-</body>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <img class="logo" alt="purplepenguin" src="948236-200.png" style="max-width:45px;">
+      <a class="navbar-brand" href="About-Purple-Penguin.html">Purple Penguin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="View-All-Restaurants.html">View All Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About-Purple-Penguin.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>Our top restaurants</h1>
+        <p class="lead">Full selection of our weekly picks<br> Have a look!</p>
+      </div>
+
+      <!-- columns -->
+      <div class="row">
+        <div class="col-xl">
+          <!-- add an image here -->
+          <img src= dirty-bones-burger.jpeg width="300px" id="burger">
+        </div>
+        <div class="col-xl">
+            <img src= kintan-bbq.jpg width="400px" id="bbq">
+        </div>
+        <div class="col-xl">
+            <img src= ethos-vegan.jpg width="300px" id="ethos">
+        </div>
+      </div>
+
+      <!-- Add another row here -->
+    </main><<!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <script src="js/restaurant-javascript.js"></script>
+    
+  </body>
 </html>
