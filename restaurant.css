@@ -1,0 +1,18 @@
+body {
+  padding-top: 3rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+h1 {font-family: ‘Helvetica’, monospace;
+ }
+#burger {
+  border: solid black;
+}
+#bbq {
+  border: solid black;
+}
+#ethos {
+  border: solid black;
+}

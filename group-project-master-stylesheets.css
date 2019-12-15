@@ -1,7 +1,10 @@
 /*Navigation Bar Font*/
 .navbar-brand {
   font-size: 20px;
-  font-family: 'Bebas Neue', cursive;
+   font-family: 'BebasNeueRegular';
+   font-weight: normal;
+   font-style: normal;
+}
 }
 /*Navigation Bar Logo*/
 .logo{
