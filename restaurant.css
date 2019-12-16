@@ -16,3 +16,5 @@ h1 {font-family: ‘Helvetica’, monospace;
 #ethos {
   border: solid black;
 }
+.navbar{
+  background-image: linear-gradient(to right, #ce73f0,#d3a6e3,#d3a6e3, #e1c7eb, #e1c7eb,#e1c7eb, #e1c7eb)
