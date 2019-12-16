@@ -54,3 +54,22 @@ h1 {font-family: ‘Helvetica’, monospace;
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFD700;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
