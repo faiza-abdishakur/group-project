@@ -16,7 +16,7 @@ h1 {
    font-weight: bold;
    font-size: large;
    text-decoration: underline;
-   text-rendering: 
+   text-rendering:
 }
 p2 {
   text-decoration: underline;
@@ -85,4 +85,7 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+.figcaption{
+  font:fantasy;
 }
