@@ -1,7 +1,7 @@
 /*Navigation Bar Font*/
 .navbar-brand {
   font-size: 20px;
-   font-family: 'BebasNeueRegular';
+   font-family: 'BebasNeue';
    font-weight: normal;
    font-style: normal;
 }
@@ -77,4 +77,13 @@ h1 {font-family: ‘Helvetica’, monospace;
 }
 #Lizzy:hover {
   background-color: Purple;
+}
+
+.carousel{
+  width: 450px!important;
+}
+
+.img-responsive {
+position:absolute!important;
+right: 0!important;
 }
