@@ -1,5 +1,9 @@
+.navbar{
+  background-image: linear-gradient(to right, #ce73f0,#d3a6e3,#d3a6e3, #e1c7eb, #e1c7eb,#e1c7eb, #e1c7eb)
+}
 body {
-  padding-top: 3rem;
+  padding-right: 3rem;
+  padding-top: 4rem;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -16,5 +20,56 @@ h1 {font-family: ‘Helvetica’, monospace;
 #ethos {
   border: solid black;
 }
-.navbar{
-  background-image: linear-gradient(to right, #ce73f0,#d3a6e3,#d3a6e3, #e1c7eb, #e1c7eb,#e1c7eb, #e1c7eb)
+#burger:hover {
+  background-color: Purple;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(139,0,139);
+  }
+
+.container:hover .overlay {
+    opacity: .6;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100;
+    text-align: justify;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFD700;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
