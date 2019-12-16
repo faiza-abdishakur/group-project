@@ -20,6 +20,7 @@ h1 {font-family: ‘Helvetica’, monospace;
 #ethos {
   border: solid black;
 }
+<<<<<<< HEAD
 #burger:hover {
   background-color: Purple;
 }
@@ -73,3 +74,5 @@ a:hover {
 a:active {
   color: blue;
 }
+=======
+>>>>>>> parent of f145ff9... Styled the map
